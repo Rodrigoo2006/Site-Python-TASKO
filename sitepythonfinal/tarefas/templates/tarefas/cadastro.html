@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasko - Criar Nova Conta</title>
+<link rel="stylesheet" href="{% static 'css/cssdosite.css' %}">
+</head>
+<body>
+  <div class="container">
+    <div class="form-page-container">
+        <h2>Crie sua Conta</h2>
+        <p>É rápido e fácil.</p>
+        
+        <form method="POST" action="{% url 'tarefas:cadastro' %}">
+            {% csrf_token %} 
+            
+            <p>{{ form.username.label_tag }} {{ form.username }}</p>
+            <div class="help-text">{{ form.username.help_text }}</div>
+            
+            <p>{{ form.password1.label_tag }} {{ form.password1 }}</p>
+            <p>{{ form.password2.label_tag }} {{ form.password2 }}</p>
+            
+            <div class="help-text">
+                <ul >
+                    <li>Sua senha não pode ser muito parecida com suas outras informações pessoais.</li>
+                    <li>Sua senha deve conter pelo menos 8 caracteres.</li>
+                    <li>Sua senha не pode ser uma senha comumente usada.</li>
+                    <li>Sua senha não pode ser inteiramente numérica.</li>
+                </ul>
+            </div>
+            
+            <button type="submit" class="btn">Criar Conta</button>
+        </form>
+        
+        <div class="divider" style="margin-top: 15px;">ou</div>
+        
+        <div class="signup">
+          Já tem uma conta? <a href="{% url 'tarefas:login' %}">Faça Login</a>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
