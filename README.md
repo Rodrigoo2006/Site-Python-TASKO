@@ -42,7 +42,7 @@ O **TASKO** é uma aplicação web desenvolvida em Django que permite aos usuár
 
 O banco de dados foi estruturado relacionando a tabela de tarefas com a tabela de usuários nativa do Django.
 
-![Diagrama ER](IMG-20251108-WA0000.jpg
+![Diagrama ER](bancodb.jpg
 )
 
 
