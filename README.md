@@ -4,7 +4,7 @@
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 
-> **Projeto acadêmico desenvolvido para a disciplina de Paradigmas Python.**
+> **Projeto acadêmico desenvolvido na Uniruy Wyden para a disciplina de Paradigmas Python.**
 
 ## 🌐 Deploy
 O projeto está online e pode ser acessado através do link abaixo:
@@ -60,8 +60,9 @@ O banco de dados foi estruturado relacionando a tabela de tarefas com a tabela d
 | Aluno |
 | :--- |
 | **Joao Vitor Ferreira da Silva** |
-| **Rodrigo Santos Araújo** |
+| **Rodrigo Santos** |
 
+**Instituição:** Uniruy Wyden
 **Professor:** Heleno Cardoso
 **Disciplina:** Paradigmas Python
 
