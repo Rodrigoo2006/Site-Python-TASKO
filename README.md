@@ -32,7 +32,7 @@ O **TASKO** é uma aplicação web desenvolvida em Django que permite aos usuár
 
 * **Linguagem:** Python 3
 * **Framework Web:** Django
-* **Banco de Dados:** SQLite (Desenvolvimento) / PostgreSQL (Produção/Railway)
+* **Banco de Dados:** MYSQL (Desenvolvimento) / PostgreSQL (Produção/Railway)
 * **Frontend:** HTML5, CSS3 (Django Templates)
 * **Hospedagem:** Railway
 
