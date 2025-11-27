@@ -42,8 +42,9 @@ O **TASKO** é uma aplicação web desenvolvida em Django que permite aos usuár
 
 O banco de dados foi estruturado relacionando a tabela de tarefas com a tabela de usuários nativa do Django.
 
-![Diagrama ER](nome-do-seu-arquivo-de-imagem.jpg)
-*(Substitua "nome-do-seu-arquivo-de-imagem.jpg" pelo nome do arquivo do diagrama que você enviou)*
+![Diagrama ER](IMG-20251108-WA0000.jpg
+)
+
 
 ### Estrutura da Tabela `tarefas_tarefa`:
 * `id`: Identificador único.
