@@ -60,7 +60,7 @@ O banco de dados foi estruturado relacionando a tabela de tarefas com a tabela d
 | Aluno |
 | :--- |
 | **Joao Vitor Ferreira da Silva** |
-| **Rodrigo Santos** |
+| **Rodrigo Santos Araújo** |
 
 **Instituição:** Uniruy Wyden
 **Professor:** Heleno Cardoso
